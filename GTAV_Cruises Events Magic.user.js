@@ -4,12 +4,13 @@
 // @version      5.2
 // @description  Events block for GTAV_Cruises
 // @author       Justin Howe [https://github.com/JustinHowe]
-// @match        https://www.reddit.com/r/GTAV_Cruises
-// @match        https://www.reddit.com/r/gtav_cruises
-// @match        https://www.reddit.com/r/Gtav_cruises
-// @match        https://www.reddit.com/r/GTAV_Cruises/*
-// @match        https://www.reddit.com/r/gtav_cruises/*
-// @match        https://www.reddit.com/r/Gtav_cruises/*
+// @match        https://www.reddit.com/r/ForzaCruises/
+// @match        https://www.reddit.com/r/forzacruises
+// @match        https://www.reddit.com/r/Forzacruises
+// @match        https://www.reddit.com/r/FORZACruises/*
+// @match        https://www.reddit.com/r/forzacruises/*
+// @match        https://www.reddit.com/r/Forzacruises/*
+// @match        https://www.reddit.com/r/ForzaCruises/*
 // @grant        none
 // @require      https://raw.githubusercontent.com/qlimax5000/GTAV_Cruises_Events/master/jstz.min.js
 // ==/UserScript==
@@ -226,7 +227,7 @@ $(window).load(function(){
 	var currentTimezone = jstzTimezone.name();
 	var currentLocation = currentTimezone.split("/");
 	currentLocation = currentLocation[1].replace(/\_/g, "+");
-	var upcomingEventsLink = "https://www.reddit.com/r/GTAV_Cruises/search?q=flair%3A%22events%22&restrict_sr=on&sort=new&t=all#res-hide-options";
+    var upcomingEventsLink = "https://www.reddit.com/r/ForzaCruises/search?q=flair%3A%22event%22&restrict_sr=on&sort=relevance&t=all";
 
 	var eventOpenSansCSS = '<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700italic,700" rel="stylesheet" type="text/css">';
 	var eventModuleCSS = '<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/qlimax5000/GTAV_Cruises_Events/master/event-module.css" media="all">';
