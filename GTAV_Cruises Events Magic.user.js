@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         GTAV_Cruises Events Magic 
+// @name         ForzaCruises Events Magic 
 // @namespace    https://github.com/Johninatoooor/GTAV_Cruises_Events/
 // @version      5.2
 // @description  Events block for GTAV_Cruises
