@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GTAV_Cruises Events Magic 
-// @namespace    https://github.com/qlimax5000/GTAV_Cruises_Events/
+// @namespace    https://github.com/Johninatoooor/GTAV_Cruises_Events/
 // @version      5.2
 // @description  Events block for GTAV_Cruises
 // @author       Justin Howe [https://github.com/JustinHowe]
@@ -12,7 +12,7 @@
 // @match        https://www.reddit.com/r/Forzacruises/*
 // @match        https://www.reddit.com/r/ForzaCruises/*
 // @grant        none
-// @require      https://raw.githubusercontent.com/qlimax5000/GTAV_Cruises_Events/master/jstz.min.js
+// @require      https://raw.githubusercontent.com/Johninatoooor/GTAV_Cruises_Events/master/jstz.min.js
 // ==/UserScript==
 
 // Event Title Format: [Region] | [Date] | [Title] | [GMT] | [Time]
@@ -231,7 +231,7 @@ $(window).load(function(){
 
 	var eventOpenSansCSS = '<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700italic,700" rel="stylesheet" type="text/css">';
 	var eventModuleCSS = '<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/qlimax5000/GTAV_Cruises_Events/master/event-module.css" media="all">';
-	var eventAttendanceCSS = '<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/qlimax5000/GTAV_Cruises_Events/master/event-attendance.css" media="all">';
+	var eventAttendanceCSS = '<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Johninatoooor/GTAV_Cruises_Events/master/event-attendance.css" media="all">';
 	var eventModuleHTML = '<div id="eventsWidget"><blockquote class="events-module" style="text-align:center"><h3><a id="eventsHeader" href="' + upcomingEventsLink + '" style="color:#fff">Cruises loading...</a></h3><p id="topBodyText"><strong>Countdown timers auto-update</strong></p><div id="eventsContent"></div><div id="footer"><strong>Local time detected as ' + currentLocation.replace(/\+/g, " ") + '<br /></strong></div></blockquote></div>';
 
 	$("head").append(eventOpenSansCSS + eventModuleCSS + eventAttendanceCSS);
